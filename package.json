@@ -1,0 +1,31 @@
+{
+  "name": "sword-generator",
+  "version": "1.0.0",
+  "description": "A simple ascii sword generator",
+  "main": "dist/Swords.js",
+  "scripts": {
+    "build": "webpack --mode production"
+  },
+  "keywords": [
+    "sword",
+    "sword-generator",
+    "weapon-generator"
+  ],
+  "author": "Ayoze Barrera",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.8.6",
+    "webpack": "^4.29.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "css-loader": "^2.1.1",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack-cli": "^3.3.0"
+  }
+}
