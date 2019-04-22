@@ -3,7 +3,8 @@ const path = require('path');
 module.exports = {
     entry: './src/Swords.js',
     output: {
-        path: path.join(__dirname, 'dist')
+        path: path.join(__dirname, 'dist'),
+        filename: 'Swords.js'
     },
     module: {
         rules: [
