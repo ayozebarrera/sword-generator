@@ -4,7 +4,9 @@ module.exports = {
     entry: './src/Swords.js',
     output: {
         path: path.join(__dirname, 'dist'),
-        filename: 'Swords.js'
+        filename: 'Swords.js',
+        library: 'sword-generator',
+        libraryTarget: 'umd'
     },
     module: {
         rules: [
