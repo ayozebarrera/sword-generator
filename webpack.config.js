@@ -3,10 +3,7 @@ const path = require('path');
 module.exports = {
     entry: './src/Swords.js',
     output: {
-        path: path.join(__dirname, 'dist'),
-        filename: 'Swords.js',
-        library: 'sword-generator',
-        libraryTarget: 'umd'
+        path: path.join(__dirname, 'dist')
     },
     module: {
         rules: [
