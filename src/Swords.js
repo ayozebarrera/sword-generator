@@ -3,7 +3,7 @@ import './Swords.scss';
 
 const Swords = props => {
     return (
-        <pre>!</pre>
+        <pre className="shine">Testing!</pre>
     );
 }
 export default Swords;
