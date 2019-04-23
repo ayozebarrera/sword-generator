@@ -5,7 +5,7 @@ import swords from './data/swords';
 const Swords = props => {
     return (
         <pre className="shine">
-            swords[0]
+            swords[0].template
         </pre>
     );
 }
